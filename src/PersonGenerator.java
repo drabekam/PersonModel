@@ -12,7 +12,7 @@ import static java.nio.file.StandardOpenOption.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class PersonGenerator {
     public static void main(String[] args) {
         String ID = "";
         String fName = "";
@@ -51,7 +51,7 @@ public class Main {
 
 
             // uses a fixed known path:
-            Path file = Paths.get("/users/andrewdrabek/school/Programming 2/practicum_Demo/src/data.txt");
+            Path file = Paths.get("/users/andrewdrabek/school/Programming 2/PersonModel/src/PersonTestData.txt");
 
             // use the toolkit to get the current working directory of the IDE
             // will create the file within the Netbeans project src folder
